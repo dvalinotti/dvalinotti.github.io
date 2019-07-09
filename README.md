@@ -1,47 +1,68 @@
-# Foundation for Sites Template
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-**Please open all issues with this template on the main [Foundation for Sites](https://github.com/zurb/foundation-sites/issues) repo.**
+## Available Scripts
 
-This is the basic starter project for [Foundation for Sites 6](http://foundation.zurb.com/sites). It includes a Sass compiler and a starter HTML file for you.
+In the project directory, you can run:
 
-## Installation
+### `npm start`
 
-To use this template, your computer needs:
+Runs the app in the development mode.<br>
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-- [NodeJS](https://nodejs.org/en/) (0.12 or greater)
-- [Git](https://git-scm.com/)
+The page will reload if you make edits.<br>
+You will also see any lint errors in the console.
 
-This template can be installed with the Foundation CLI, or downloaded and set up manually.
+### `npm test`
 
-### Using the CLI
+Launches the test runner in the interactive watch mode.<br>
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-Install the Foundation CLI with this command:
+### `npm run build`
 
-```bash
-npm install foundation-cli --global
-```
+Builds the app for production to the `build` folder.<br>
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-Use this command to set up a blank Foundation for Sites project with this template:
+The build is minified and the filenames include the hashes.<br>
+Your app is ready to be deployed!
 
-```bash
-foundation new --framework sites --template basic
-```
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-The CLI will prompt you to give your project a name. The template will be downloaded into a folder with this name.
+### `npm run eject`
 
-### Manual Setup
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-To manually set up the template, first download it with Git:
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-```bash
-git clone https://github.com/zurb/foundation-sites-template projectname
-```
+Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-Then open the folder in your command line, and install the needed dependencies:
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-```bash
-cd projectname
-npm install
-```
+## Learn More
 
-Finally, run `npm start` to run the Sass compiler. It will re-run every time you save a Sass file.
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+
+### Analyzing the Bundle Size
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+
+### Making a Progressive Web App
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+
+### Advanced Configuration
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+
+### Deployment
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+
+### `npm run build` fails to minify
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
